@@ -30,7 +30,7 @@ date: 2022-03-21 13:35:45
 - [GSAP](https://greensock.com/docs/)
 - [Animate.css](https://animate.style/)
 
-#### JS for Chart
+#### JS for Charts
 
 - [Apache ECharts](https://echarts.apache.org/)
 - [Chart.js](https://www.chartjs.org/)
