@@ -74,7 +74,7 @@ date: 2022-03-21 13:35:45
 - [Apple - Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
 - [Material Design](https://material.io/)
 
-#### Icon
+### Icon
 
 - [Bootstrap Icons](https://icons.getbootstrap.com/)
 - [FontAwesome](https://fontawesome.com/)
