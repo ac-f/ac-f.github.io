@@ -104,6 +104,6 @@ theme: butterfly
 deploy:
   type: git
   repo: https://github.com/ac-f/ac-f.github.io.git
-  branch: main
+  branch: gh-page
   name: ac-f
   email: fantasy1621821@gmail.com
