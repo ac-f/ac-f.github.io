@@ -8,10 +8,10 @@
 #   name: link || icon
 
 menu:
-  # Home: / || fas fa-home
+  首頁: / || fas fa-home
   # Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
-  # Categories: /categories/ || fas fa-folder-open
+  文章分類: /categories/ || fas fa-folder-open
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
@@ -34,10 +34,12 @@ code_word_wrap: false
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
 copy:
-  enable: true
+  enable: false
   copyright:
     enable: false
     limit_count: 50
+
+copyright_info: test
 
 # social settings (社交圖標設置)
 # formal:
@@ -137,8 +139,8 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
-  subtitle: 'Page Not Found'
+  enable: true
+  subtitle: '找不到這個頁面'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
 post_meta:
@@ -181,7 +183,7 @@ toc:
   style_simple: false
 
 post_copyright:
-  enable: true
+  enable: false
   decode: false
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
