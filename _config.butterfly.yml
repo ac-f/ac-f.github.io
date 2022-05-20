@@ -9,8 +9,8 @@
 
 menu:
   首頁: / || fas fa-home
-  # Archives: /archives/ || fas fa-archive
-  # Tags: /tags/ || fas fa-tags
+  文章總覽: /archives/ || fas fa-archive
+  文章標籤: /tags/ || fas fa-tags
   文章分類: /categories/ || fas fa-folder-open
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
