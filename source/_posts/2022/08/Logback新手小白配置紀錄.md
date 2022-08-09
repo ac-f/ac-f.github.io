@@ -3,7 +3,7 @@ title: Logback新手小白配置紀錄
 categories:
   - Java
   - Spring Boot
-  - LogBack
+  - Logback
 date: 2022-08-09 19:31:30
 tags:
   - Java
@@ -163,6 +163,8 @@ public class Log2Service {
 接著就可以看到log被記錄下來囉!
 ![image](https://user-images.githubusercontent.com/12562305/183618425-eeeeee5a-5a25-4d75-9815-fcb1b929a2b9.png)
 ![image](https://user-images.githubusercontent.com/12562305/183618730-f04e4b9f-cc98-423f-ba50-b5d2f4509423.png)
+
+[原始碼](https://github.com/ac-f/logback-test)
 
 ## 參考資料
 
