@@ -8,6 +8,7 @@ date: 2022-08-09 17:31:30
 tags:
   - Java
   - Logback
+  - Spring Boot
 cover: https://user-images.githubusercontent.com/12562305/183610738-493008ff-414b-44df-9016-f6c71181275c.png
 ---
 ![image](https://user-images.githubusercontent.com/12562305/183610738-493008ff-414b-44df-9016-f6c71181275c.png)
