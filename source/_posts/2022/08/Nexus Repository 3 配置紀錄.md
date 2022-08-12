@@ -26,7 +26,6 @@ docker run -d -p 8081:8081 --name nexus sonatype/nexus3
 
 接著我們需要進去container裡面拿到預設的密碼
 
-
 ```bash
 docker exec -it nexus bash
 cat /opt/sonatype/sonatype-work/nexus3/admin.password
