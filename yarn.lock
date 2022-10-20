@@ -21,13 +21,6 @@
   version "2.0.0"
   resolved "https://registry.npmjs.org/@tootallnate/once/-/once-2.0.0.tgz"
 
-JSONStream@^1.0.7:
-  version "1.3.5"
-  resolved "https://registry.npmjs.org/JSONStream/-/JSONStream-1.3.5.tgz"
-  dependencies:
-    jsonparse "^1.2.0"
-    through ">=2.2.7 <3"
-
 a-sync-waterfall@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/a-sync-waterfall/-/a-sync-waterfall-1.0.1.tgz"
@@ -1784,11 +1777,11 @@ hexo-log@^2.0.0:
   dependencies:
     chalk "^4.0.0"
 
-hexo-log@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/hexo-log/-/hexo-log-3.0.0.tgz"
+hexo-log@^3.0.0, hexo-log@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/hexo-log/-/hexo-log-3.2.0.tgz#958c8ea681f7575afcd554f39c8e09f46461d317"
   dependencies:
-    nanocolors "^0.2.12"
+    picocolors "^1.0.0"
 
 hexo-pagination@1.0.0:
   version "1.0.0"
@@ -1850,9 +1843,9 @@ hexo-theme-landscape@^0.0.3:
   version "0.0.3"
   resolved "https://registry.npmjs.org/hexo-theme-landscape/-/hexo-theme-landscape-0.0.3.tgz"
 
-hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.5.0, hexo-util@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.npmjs.org/hexo-util/-/hexo-util-2.6.1.tgz"
+hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.5.0, hexo-util@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-2.7.0.tgz#13d09292e79d260db35399710b3e19f3995443a3"
   dependencies:
     bluebird "^3.5.2"
     camel-case "^4.0.0"
@@ -1867,9 +1860,9 @@ hexo-wordcount@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmjs.org/hexo-wordcount/-/hexo-wordcount-6.0.1.tgz"
 
-hexo@^6.1.0:
-  version "6.2.0"
-  resolved "https://registry.npmjs.org/hexo/-/hexo-6.2.0.tgz"
+hexo@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/hexo/-/hexo-6.3.0.tgz#10c940aaf86e2fbaf8a0db7cb79fc1fe4d6e1180"
   dependencies:
     abbrev "^1.1.1"
     archy "^1.0.0"
@@ -1878,8 +1871,8 @@ hexo@^6.1.0:
     hexo-front-matter "^3.0.0"
     hexo-fs "^3.1.0"
     hexo-i18n "^1.0.0"
-    hexo-log "^3.0.0"
-    hexo-util "^2.6.1"
+    hexo-log "^3.2.0"
+    hexo-util "^2.7.0"
     js-yaml "^4.1.0"
     js-yaml-js-types "^1.0.0"
     micromatch "^4.0.4"
@@ -1894,7 +1887,7 @@ hexo@^6.1.0:
     text-table "^0.2.0"
     tildify "^2.0.0"
     titlecase "^1.1.3"
-    warehouse "^4.0.1"
+    warehouse "^4.0.2"
 
 highlight.js@^11.0.1:
   version "11.5.1"
@@ -2314,9 +2307,9 @@ json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz"
 
-jsonparse@^1.2.0:
+jsonparse@^1.3.1:
   version "1.3.1"
-  resolved "https://registry.npmjs.org/jsonparse/-/jsonparse-1.3.1.tgz"
+  resolved "https://registry.yarnpkg.com/jsonparse/-/jsonparse-1.3.1.tgz#3f4dae4a91fac315f71062f8521cc239f1366280"
 
 jstransformer@1.0.0:
   version "1.0.0"
@@ -2865,10 +2858,6 @@ mute-stdout@^1.0.0:
 nan@^2.12.1:
   version "2.16.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.16.0.tgz#664f43e45460fb98faf00edca0bb0d7b8dce7916"
-
-nanocolors@^0.2.12:
-  version "0.2.13"
-  resolved "https://registry.npmjs.org/nanocolors/-/nanocolors-0.2.13.tgz"
 
 nanoid@^3.3.4:
   version "3.3.4"
@@ -4004,7 +3993,7 @@ through2@^4.0.0, through2@^4.0.2:
   dependencies:
     readable-stream "3"
 
-through@2, "through@>=2.2.7 <3", through@^2.3.8, through@~2.3, through@~2.3.4:
+through@2, through@^2.3.8, through@~2.3, through@~2.3.4:
   version "2.3.8"
   resolved "https://registry.npmjs.org/through/-/through-2.3.8.tgz"
 
@@ -4328,17 +4317,18 @@ w3c-xmlserializer@^3.0.0:
   dependencies:
     xml-name-validator "^4.0.0"
 
-warehouse@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.npmjs.org/warehouse/-/warehouse-4.0.1.tgz"
+warehouse@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/warehouse/-/warehouse-4.0.2.tgz#5ea59381c59e2187bcd77d25d8a628b1e1ffc53d"
   dependencies:
-    JSONStream "^1.0.7"
     bluebird "^3.2.2"
     cuid "^2.1.4"
     graceful-fs "^4.1.3"
     hexo-log "^3.0.0"
     is-plain-object "^5.0.0"
+    jsonparse "^1.3.1"
     rfdc "^1.1.4"
+    through2 "^4.0.2"
 
 webidl-conversions@^7.0.0:
   version "7.0.0"
