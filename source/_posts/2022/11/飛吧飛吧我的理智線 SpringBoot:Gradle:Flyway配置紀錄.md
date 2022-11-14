@@ -4,7 +4,7 @@ categories:
   - Java
   - Spring Boot
   - Flyway
-date: 2022-11-14 16:36:30
+date: 2022-11-15 00:36:30
 tags:
   - SpringBoot
   - Gradle
