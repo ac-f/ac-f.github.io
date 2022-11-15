@@ -58,7 +58,7 @@ dependencies {
 
 ## 兩種配置方式
 
-Flyway共有兩種配置方式，一種是透過在resources中的profile配置，另一種是直接在打包工具中配置。以下兩種我們都會介紹，就讓我們繼續看下去啦～
+Flyway共有兩種配置方式，一種是透過在resources中的Configuration File配置，另一種是直接在打包工具中配置。以下兩種我們都會介紹，就讓我們繼續看下去啦～
 
 ### 在 Configuration File 中配置 Flyway
 
