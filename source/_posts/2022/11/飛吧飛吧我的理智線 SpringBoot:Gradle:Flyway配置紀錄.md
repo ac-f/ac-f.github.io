@@ -38,7 +38,7 @@ buildscript {
     dependencies {
         ...
         classpath 'org.flywaydb:flyway-core'
-        classpath "org.flywaydb:flyway-mysql:9.2.0"
+        classpath "org.flywaydb:flyway-mysql:9.2.0" //或替換成其他
     }
 }
 
