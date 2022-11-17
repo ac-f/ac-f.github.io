@@ -18,6 +18,8 @@ cover: https://user-images.githubusercontent.com/12562305/202376114-2845c709-07d
 
 今天希望透過簡單的範例來示範如何使用Gradle來實作多模組的Spring Boot程式
 
+如果你很懶得看文章也可以直接[看程式](https://github.com/ac-f/demo-gradle-multi-module)
+
 ## 認識多模組
 當程式邏輯越寫越複雜的時候，我們會希望把不一樣的業務拆分成不一樣的模組。
 
