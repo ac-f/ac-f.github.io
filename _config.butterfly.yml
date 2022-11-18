@@ -12,6 +12,7 @@ menu:
   文章總覽: /archives/ || fas fa-archive
   文章標籤: /tags/ || fas fa-tags
   文章分類: /categories/ || fas fa-folder-open
+  cover: /music || fa-solid fa-headset
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
@@ -46,6 +47,8 @@ copyright_info: test
 #   icon: link || the description
 social:
   fab fa-github: https://github.com/ac-f || Github
+  fa-brands fa-youtube: https://reurl.cc/de7XGy || Youtube
+  fa-solid fa-headset: /music || Youtubea
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
 
 # search (搜索)
@@ -140,7 +143,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: true
-  subtitle: '找不到這個頁面'
+  subtitle: '欸嘿～找不到這個頁面'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
 post_meta:
@@ -263,20 +266,20 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
-  use:
+  use: Disqus
   # - Valine
   # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
-  count: false # Display comment count in post's top_img
+  lazyload: true
+  count: true # Display comment count in post's top_img
   card_post_count: false # Display comment count in Home Page
 
 # disqus
 # https://disqus.com/
 disqus:
-  shortname:
+  shortname: ac-f
   apikey: # For newest comments widget
 
 # Alternative Disqus - Render comments with Disqus API
@@ -650,7 +653,14 @@ aside:
       link: https://github.com/ac-f
   card_announcement:
     enable: true
-    content: 一個遊走在虛幻與現實的小菜雞
+    content: <h4>關於我</h4>
+      一個遊走在虛幻與現實的小菜雞 <br/>
+      <h4>時常出沒於</h4>
+      <h6>Discord</h6>
+      <a href="https://discord.gg/GhY4q6nQ">水球軟體學院</a> <br/>
+      <h6>Line社群</h6>
+      <a href="https://line.me/ti/g2/A-7vEOqZJNwgjEYg694NgJlrzj_1KY9LZSLqtg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default">Java 程式語言討論區</a> <br/>
+      <a href="https://line.me/ti/g2/Uhq2NM0bA6j3C5O0XBAVnm9CGMxJZgY_UMBsPA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default">Will 保哥的技術交流中心</a> <br/>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
