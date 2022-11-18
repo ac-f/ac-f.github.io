@@ -12,7 +12,7 @@ menu:
   文章總覽: /archives/ || fas fa-archive
   文章標籤: /tags/ || fas fa-tags
   文章分類: /categories/ || fas fa-folder-open
-  cover: /music || fa-solid fa-headset
+  唱起來: /music || fa-solid fa-headset
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
@@ -512,7 +512,7 @@ tag_ui: # 留空或 index
 background:
 
 # Footer Background
-footer_bg: false
+footer_bg: true
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
