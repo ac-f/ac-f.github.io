@@ -56,7 +56,7 @@ cover: https://user-images.githubusercontent.com/12562305/202645794-d7922c72-a3e
 Holy ...
 ![image](https://user-images.githubusercontent.com/12562305/202879957-e4a05579-aa56-407f-b298-0ef23bd16308.png)
 
-對不起這個Bug我解不出來，沒啦開玩笑，是因爲ElasticBeanstalk自帶的nginx會主動去監聽`5000port`的內容。
+對不起這個Bug我解不出來，沒啦開玩笑，是因爲ElasticBeanstalk自帶的nginx會主動去監聽`5000 port`的內容。
 
 因此我們只要在`src/main/resources/application.properties`(or yaml)中改port的設定值就可以囉！
 ```properties
