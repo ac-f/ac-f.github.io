@@ -262,6 +262,6 @@ public class ItemController {
 
 ## 結語
 
-經過了一番波折我們終於把API服務完成啦～下一篇我們再來看如何將做好的服務部署到 `AWS Elastic Beanstalk` 上吧！
+經過了一番波折我們終於把API服務完成啦～[下一篇](/2022/11/SpringBoot串接Firebase%20Firestore並部署到AWS%20ElasticBeanstalk3/)我們再來看如何將做好的服務部署到 `AWS Elastic Beanstalk` 上吧！
 
 我們下次見～
