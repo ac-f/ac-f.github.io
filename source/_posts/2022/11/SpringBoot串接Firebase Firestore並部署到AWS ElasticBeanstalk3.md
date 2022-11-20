@@ -3,7 +3,7 @@ title: SpringBoot串接Firebase Firestore並部署到AWS ElasticBeanstalk(3)-部
 categories:
   - Java
   - Spring Boot
-date: 2022-11-20 09:55:30
+date: 2022-11-20 11:10:30
 tags:
   - Spring Boot
   - Firebase
