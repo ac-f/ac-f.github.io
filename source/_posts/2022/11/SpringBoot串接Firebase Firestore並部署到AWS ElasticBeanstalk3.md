@@ -16,7 +16,7 @@ cover: https://user-images.githubusercontent.com/12562305/202645794-d7922c72-a3e
 ![image](https://user-images.githubusercontent.com/12562305/202645794-d7922c72-a3e7-42b3-af16-1066432d709c.png)
 
 ## 前言
-在[上一篇文章](/2022/11/SpringBoot串接Firebase%20Firestore並部署到AWS%20ElasticBeanstalk2/)中，我們已經完成了一個基礎的CRUD程式，成為了一個無情的CRUD工具。
+在[上一篇文章](/2022/11/SpringBoot串接Firebase%20Firestore並部署到AWS%20ElasticBeanstalk2/)中，我們已經完成了一個基礎的CRUD程式，成為了一個無情的CRUD機器。
 
 這篇文章假定大家已經有AWS的帳號並且已經綁定信用卡，如果沒有的話可以去參考別的文章，網路上有蠻多大神提供相關資源的。
 
