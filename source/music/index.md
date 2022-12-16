@@ -9,4 +9,5 @@ date: 2022-11-18 09:36:37
 
 # 翻唱
 
+- [拾憶](https://youtu.be/vCDPLnAyDVk)
 - [就忘了吧 (慢版)](https://youtu.be/_KCSZpYwEm8)
