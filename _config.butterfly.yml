@@ -13,6 +13,7 @@ menu:
   文章標籤: /tags/ || fas fa-tags
   文章分類: /categories/ || fas fa-folder-open
   唱起來: /music || fa-solid fa-headset
+  讀書筆記: /notes || fa-solid fa-book
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
