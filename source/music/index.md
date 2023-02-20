@@ -8,6 +8,7 @@ date: 2022-11-18 09:36:37
 如果有不錯的歌想聽我唱也可以讓我知道XD
 
 # 翻唱
+- [一路向北](https://youtu.be/Gfm6u7ZqHww)
 - [出賣](https://youtu.be/Ypjf9KLOF1I)
 - [那些年](https://youtu.be/peK2FIE4ICM)
 - [孤勇者](https://youtu.be/--mq4KG48x0)
