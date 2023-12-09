@@ -13,7 +13,7 @@ timezone: 'Asia/Taipei'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://ac-f.io/
+url: https://ac-fantasy.com/
 permalink: :title/
 permalink_defaults:
 pretty_urls:
